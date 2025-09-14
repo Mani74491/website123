@@ -98,10 +98,10 @@
     <!-- Top bar -->
     <header class="topbar" id="topbar" style="display:none;">
       <div class="brand">
-        <div class="logo">UM</div>
+        <div class="logo">MT</div>
         <div>
           <h1>MOTHER TERASA COLLEGE OF ARTS AND SCIENCE</h1>
-          <p>Head of Department - Details</p>
+          <p>Department Details</p>
         </div>
       </div>
 
@@ -114,11 +114,11 @@
     <!-- Login screen -->
     <div class="center-screen" id="loginScreen">
       <div class="login-card" role="main" aria-labelledby="loginTitle">
-        <h2 id="loginTitle">HOD Login</h2>
-        <p class="muted">Enter your credentials to access UMIS (demo mode — client-side only)</p>
+        <h2 id="loginTitle">Login</h2>
+        <p class="muted">NAAC Details</p>
 
         <label for="username">Username</label>
-        <input id="username" placeholder="hod.username" type="text" />
+        <input id="username" placeholder="username" type="text" />
 
         <label for="password">Password</label>
         <input id="password" placeholder="••••••••" type="password" />
@@ -131,8 +131,8 @@
         </div>
 
         <div style="display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:6px">
-          <div class="muted">Demo account: <strong>hod</strong> / <strong>hodpass</strong></div>
-          <button class="btn" onclick="handleLogin()">Sign in</button>
+ 
+         <button class="btn" onclick="handleLogin()">Sign in</button>
         </div>
       </div>
     </div>
@@ -142,7 +142,7 @@
       <nav class="sidebar" aria-label="Main navigation">
         <div style="margin-bottom:12px">
           <div style="font-weight:700">Navigation</div>
-          <div class="muted-small">Single user — HOD</div>
+          <div class="muted-small">Single user</div>
         </div>
         <div id="navItems">
           <div class="nav-item active" data-view="dashboard" onclick="showView('dashboard', this)"><span>🏠</span> Dashboard</div>
@@ -152,7 +152,7 @@
           <div class="nav-item" data-view="experience" onclick="showView('experience', this)"><span>🧾</span> Experience Details</div>
           <div class="nav-item" data-view="academic" onclick="showView('academic', this)"><span>📚</span> Academic Details</div>
           <div class="nav-item" data-view="allocations" onclick="showView('allocations', this)"><span>🔀</span> Student Allocations</div>
-          <div class="nav-item" data-view="courses" onclick="showView('courses', this)"><span>🗂️</span> Semester-wise Courses</div>
+          <div class="nav-item" data-view="courses" onclick="showView('courses', this)"><span>🗂️</span> Semester Wise Courses</div>
           <div class="nav-item" data-view="attendance" onclick="showView('attendance', this)"><span>✅</span> Attendance</div>
           <div class="nav-item" data-view="marks" onclick="showView('marks', this)"><span>📝</span> Marksheet</div>
         </div>
@@ -412,9 +412,9 @@
 <script>
   // Demo data (client-side)
   const demo = {
-    hod: { username: 'hod', password: 'hodpass', name: 'Dr. Priya Ramasamy' },
+    hod: { username: 'cs', password: 'cs1', name: 'P.Manikandan' },
     staff: [
-      {id:1,name:'Dr. Arun Kumar', desig:'Professor', email:'arun@college.edu', experience:[{role:'Asst Prof', yrs:5}]},
+      {id:1,name:'Ms. N.Shanmugapriya ', desig:'Professor', email:'arun@college.edu', experience:[{role:'Asst Prof', yrs:5}]},
       {id:2,name:'Ms. Meera N.', desig:'Assistant Professor', email:'meera@college.edu', experience:[{role:'Lecturer', yrs:3}]},
       {id:3,name:'Mr. Rajesh T.', desig:'Lab Instructor', email:'rajesh@college.edu', experience:[]}
     ],
